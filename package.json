@@ -1,0 +1,26 @@
+{
+  "name": "social-network-mongodb",
+  "version": "1.0.0",
+  "description": "Building an API for a social network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thedanbrown/social-network-mongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thedanbrown/social-network-mongoDB/issues"
+  },
+  "homepage": "https://github.com/Thedanbrown/social-network-mongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.3"
+  }
+}
