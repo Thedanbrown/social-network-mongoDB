@@ -1,5 +1,5 @@
 const { User, Thought} = require('../models');
-
+// setting all the thought functions
 const thoughtController = {
     getAllThought(req, res) {
         Thought.find({}).populate({path: 'reactions', select: '-__v'}).select('-__v').sort({ _id: -1 })

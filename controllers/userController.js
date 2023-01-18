@@ -1,5 +1,5 @@
 const { User, Thought } = require('../models');
-
+// setting all the different user functions
 const userController = {
     getAllUser(req, res) {
         User.find({}).select('-__v').sort({ _id: -1 })
