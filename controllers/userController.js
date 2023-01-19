@@ -2,7 +2,7 @@ const { User, Thought } = require('../models');
 // setting all the different user functions
 const userController = {
     getAllUser(req, res) {
-        User.find({}).select('-__v').sort({ _id: -1 })
+        User.find({}).select('-__v').sort({ _id: 0 })
         .then(dbUserData => res.json(dbUserData))
         .catch(err => {
             console.log(err);
